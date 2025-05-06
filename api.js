@@ -1,4 +1,4 @@
-fetch("https://uf4-aravel-davidhenrique-production.up.railway.app/api/tarjetas/10")
+fetch("https://uf4-aravel-davidhenrique-production.up.railway.app/api/tarjetas/6")
   .then(respuesta => respuesta.json())
   .then(data => {
     console.log("Tarjeta:", data);
@@ -25,7 +25,7 @@ fetch("https://uf4-aravel-davidhenrique-production.up.railway.app/api/tarjetas/1
 
   })
 
-  fetch("https://uf4-aravel-davidhenrique-production.up.railway.app/api/tarjetas/5")
+  fetch("https://uf4-aravel-davidhenrique-production.up.railway.app/api/tarjetas/4")
   .then(respuesta => respuesta.json())
   .then(data => {
     console.log("Tarjeta:", data);
